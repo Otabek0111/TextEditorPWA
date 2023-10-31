@@ -12,9 +12,7 @@ module.exports = () => {
     entry: {
       main: './src/js/index.js',
       install: './src/js/install.js',
-      database: './src/js/database.js',
-      header: './src/js/header.js',
-      editor: './src/js/editor.js'
+  
 
     },
     output: {
@@ -24,8 +22,8 @@ module.exports = () => {
     plugins: [
       // Webpack plugin that generates an HTML file for your application by injecting automatically all your generated bundles.
       new HtmlWebpackPlugin({
-        template: './src/index.html',
-        title: './index.html',
+        template: './index.html',
+        title: 'J.A.T.E.',
 
       }),
 
