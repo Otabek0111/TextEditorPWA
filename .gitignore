@@ -1,0 +1,8 @@
+node_modules/
+dist/
+/node_modules
+npm-debug.log
+.DS_Store
+client/package-lock.json
+server/package-lock.json
+package-lock.json
