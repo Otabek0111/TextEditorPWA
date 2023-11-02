@@ -28,7 +28,7 @@ const store = tx.objectStore('jate');
 const request = store.put({ id: 1, value: content});
 
 const result = await request;
-console.log("Result: ",result.value);
+console.log("🚀---> data saved: ",result);
 }
 // TODO: Add logic for a method that gets all the content from the database
 export const getDb = async () => {
@@ -45,8 +45,8 @@ const request = store.get(1);
 
 const result = await request;
  result
-  ? console.log('result.value',result.value)
-  : console.log('no db');
+  ? console.log('🚀---> data retrieved: ',result.value)
+  : console.log('cant retrieve data');
 return result?.value;
 }
 
