@@ -38,7 +38,7 @@ module.exports = () => {
         fingerprints: false,
         inject: true,
         name: 'My Progressive Web App',
-        short_name: 'MyPWA',
+        short_name: 'J.A.T.E.',
         description: 'My awesome Progressive Web App!',
         background_color: '#ffffff',
         theme_color: '#2196f3',
@@ -61,13 +61,16 @@ module.exports = () => {
           use: ['style-loader', 'css-loader'],
         },
         {
-          test: /\.js$/,
+          test: /\.m?js$/,
           exclude: /node_modules/,
           use: {
             loader: 'babel-loader',
             options: { 
               presets: ['@babel/preset-env'],
-              plugins: ['@babel/plugin-proposal-object-rest-spread', '@babel/transform-runtime'],          
+              plugins: [
+                '@babel/plugin-proposal-object-rest-spread',
+                '@babel/transform-runtime'
+                      ],          
             },
           },
         }
