@@ -11,29 +11,47 @@ This is a simple text editor that allows you to create, edit, and delete notes. 
 * [Usage](#usage)
 * [License](#license)
 
-## Installation
 
-To install the necessary dependencies, run the following command:
-
-\`\`\`
-npm i
-\`\`\`
-## Video Walkthrough
+## Application Screenshot
 
 Follow the link below to see a video walkthrough of the application: 
-[![Video Walkthrough]()
 
-## Deployed Application
+![Screen Shot](./assets/imgs/ss.png)
 
-Follow the link below to see the deployed application: 
-[![Deployed Application]()
+
+## Installation
+
+To use this application on device, run the following command:
+
+\`\`\`
+
+npm install 
+
+npm run build 
+
+npm run start:dev
+
+open http://localhost:3000 to see application
+
+\`\`\`
+
 ## Usage
 
-To use this application, run the following command:
+To use this application, follow the link below:
 
-\`\`\`
-npm start
-\`\`\`
+[Deployed Application](https://jatepwaa-ce83af09b9ca.herokuapp.com/)
+
+## Resources 
+
+* [Heroku](https://www.heroku.com/)
+* [MongoDB Atlas](https://www.mongodb.com/cloud/atlas)
+* [Node.js](https://nodejs.org/en/)
+* [Express.js](https://expressjs.com/)
+* [Mongoose](https://mongoosejs.com/)
+* [Webpack](https://webpack.js.org/)
+* [Babel](https://babeljs.io/)
+
+Special thanks my Professor, TA, and Tutor for their help with this project.
 
 ## License
 
